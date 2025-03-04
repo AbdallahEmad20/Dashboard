@@ -16,7 +16,7 @@ const SettingsCharity = () => {
     const [isLogoutModalVisible, setIsLogoutModalVisible] = useState(false);
 
     return (
-        <div className="md:h-[650px]">
+        <div className="h-full md:h-[650px]">
 
             <div className="bg-white p-4 md:p-6 rounded-2xl h-full md:h-[95%]">
       
