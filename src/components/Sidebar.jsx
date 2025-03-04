@@ -1,4 +1,4 @@
-import Logoo from "../assets/loaf color.png";
+import Logoo from "../assets/charityHome2.jpg";
 import { Link, useLocation } from "react-router-dom"; 
 import useIcons from "../hooks/useIcons";
 
