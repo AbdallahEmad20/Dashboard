@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Table, Select, Tag } from "antd";
-import image1 from "../assets/charityHome2.jpg";
-import image2 from "../assets/charityHome2.jpg";
-import image3 from "../assets/charityHome2.jpg";
+import image1 from "../assets/chid3.png";
+import image2 from "../assets/chid4.jpg";
+import image3 from "../assets/chid3.png";
 import { Link } from "react-router-dom";
 
 import useIcons from "../hooks/useIcons";
