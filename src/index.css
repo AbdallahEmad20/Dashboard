@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Cairo", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #6366F1;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #4F46E5;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+@layer components {
+ 
+
+
+    .custom-bullet.swiper-pagination-bullet {
+        @apply bg-purple-800 mb-[10px];
+    }
+
+    .swiper:not(.custom-bullet, .specialSwiper, .swiperRequest) {
+
+        @apply py-[50px];
+    }
+
+    .custom-bullet.swiper-pagination-bullet-active {
+        @apply bg-[#5467CC] rounded-lg w-12 h-2 transition-all duration-500 ease-in-out;
+    }
+
+
+}
